@@ -38,7 +38,7 @@ Keep the application small. A basic page and a single end-to-end workflow are su
    - Implement a **file upload** feature with basic validation (e.g., file size/type).
    - Integrate with the VirusTotal API to scan the uploaded files. You may either submit a provided file and retrieve its result or look up the file by hash. Document the approach you chose.
    - Display the scan results on the webpage.
-   - Display the GenAI Triage explaination.
+   - Display the GenAI Triage explaination. (The accuracy of the GenAI result is not tested here)
 2. **Security Considerations**: Only use the public test files supplied in the `[files/](files/)` directory. Never upload confidential or customer data to VirusTotal.
 3. **Preferred Programming Languages**:
    - You may use any language or framework you are comfortable with
