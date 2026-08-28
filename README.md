@@ -75,21 +75,21 @@ Write a separate Bash or Python script that checks whether the application is ru
 
 1. **Core Functionality**:
 
- - write timestamped messages to a separate log file;
- - log one warning when the process changes from running to stopped;
- - log one recovery message when the process becomes available again;
- - run persistently through systemd or an equivalent service manager.
+  - write timestamped messages to a separate log file;
+  - log one warning when the process changes from running to stopped;
+  - log one recovery message when the process becomes available again;
+  - run persistently through systemd or an equivalent service manager.
 
 ## Submission Requirements
 
 1. **Documentation**:
-   - Provide a detailed README explaining your setup process, challenges, and solutions.
+    - Provide a detailed README explaining your setup process, challenges, and solutions.
 2. **Source Code**:
-   - Share your codebase with clear instructions for running the application.
+    - Share your codebase with clear instructions for running the application.
 3. **Deployment**:
-   - Host your application on AWS EC2 and provide access for review.
+    - Host your application on AWS EC2 and provide access for review.
 4. **Discussion**:
-   - Be prepared to discuss your design choices, challenges faced, and any enhancements implemented.
+    - Be prepared to discuss your design choices, challenges faced, and any enhancements implemented.
 
 ## **Bonus Section: Optional Enhancements**
 
@@ -97,13 +97,13 @@ Go the extra mile by implementing one or both of the following:
 
 #### 1. Infrastructure Monitoring and Best Practices
 
-- Infrastructure as code.
-- Containerization.
-- Log rotation and application-level health check, metrics, or an availability objective.
+ - Infrastructure as code.
+ - Containerization.
+ - Log rotation and application-level health check, metrics, or an availability objective.
 
 ### **2. CI/CD Pipeline**
 
-- Automate testing and deployments using a CI/CD pipeline (e.g., GitHub Actions or AWS CodePipeline).
+ - Automate testing and deployments using a CI/CD pipeline (e.g., GitHub Actions or AWS CodePipeline).
 
 ## Evaluation Criteria
 
