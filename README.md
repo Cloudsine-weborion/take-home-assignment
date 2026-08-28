@@ -61,8 +61,6 @@ Deploy the application to a Linux operating system hosted on **AWS EC2**.
 
 Write a Bash or Python script that checks connectivity to the configured host on port 80 every **5 seconds**.
 
-1. **Core Functionality**:
-
   - write timestamped messages to a log file;
   - log one warning when the port changes from accessible to inaccessible;
   - log one recovery message when the port becomes accessible again;
@@ -71,8 +69,6 @@ Write a Bash or Python script that checks connectivity to the configured host on
 ### Step 4. Build a process monitor
 
 Write a separate Bash or Python script that checks whether the application is running every **5 seconds**.
-
-1. **Core Functionality**:
 
   - write timestamped messages to a separate log file;
   - log one warning when the process changes from running to stopped;
