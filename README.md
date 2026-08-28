@@ -18,8 +18,8 @@ The application should:
 3. Display a concise scan result.
 4. Use a GenAI service, such as Gemini, to explain the result in plain language.
 5. You will then create two independent monitors:
-  1. a network monitor for port 80; and
-  2. a process monitor for the selected web server.
+  - a network monitor for port 80; and
+  - a process monitor for the selected web server.
 
 ## Features
 
