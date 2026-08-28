@@ -28,8 +28,7 @@ Keep the application small. A basic page and a single end-to-end workflow are su
 1. **File Upload and Scanning**: Build a web interface that allows users to upload files and scan them using the [VirusTotal API](https://docs.virustotal.com/reference/overview).
 2. **Result Display**: Present the scan results dynamically and clearly on the webpage.
 3. **GenAI Integration**: Integrate with a LLM to explain the results to a lay end user
-4. **Customizable Design**: Add enhancements or optimizations to showcase your skills.
-5. **Monitors:** Monitor and log the health of the server and output necessary logs
+4. **Monitors:** Monitor and log the health of the server and output necessary logs
 
 ## Assignment Steps
 
