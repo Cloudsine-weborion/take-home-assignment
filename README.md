@@ -130,7 +130,6 @@ Some sample JavaScript files are malicious. Treat every file as untrusted:
 - [Gemini API documentation](https://ai.google.dev/gemini-api/docs)
 - [Nginx documentation](https://nginx.org/en/docs/)
 - [Apache HTTP Server documentation](https://httpd.apache.org/docs/)
-- [systemd service documentation](https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html)
 
 ## **Getting Started**
 
