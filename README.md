@@ -3,9 +3,7 @@
 *"Clean code always looks like it was written by someone who cares."*  
 — **Robert C. Martin**, *Author of Clean Code*
 
-Welcome to the CloudsineAI take-home assignment! This project will help us evaluate your skills, problem-solving abilities, and design process. Let's get started!
-
-This exercise evaluates practical Linux administration, deployment, service monitoring, failure recovery, and operational communication. You will also build a small web application that uses GenAI. 
+Welcome to the CloudsineAI take-home assignment! This project will help us evaluate your skills, problem-solving abilities, and design process. With AI assistants, we recommended no more than a day to complete this exercise. Let's get started!
 
 ## Objective
 
