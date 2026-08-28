@@ -68,7 +68,7 @@ Write a Bash or Python script that checks connectivity to the configured host on
   - log one recovery message when the port becomes accessible again;
   - run persistently through systemd or an equivalent service manager.
 
-### 4. Build a process monitor
+### Step 4. Build a process monitor
 
 Write a separate Bash or Python script that checks whether the application is running every **5 seconds**.
 
