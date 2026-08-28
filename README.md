@@ -94,7 +94,7 @@ Go the extra mile by implementing one or both of the following:
 
  - Infrastructure as code.
  - Containerization.
- - Log rotation and application-level health check, metrics, or an availability objective.
+ - Observability of application statistics
 
 ### **2. CI/CD Pipeline**
 
