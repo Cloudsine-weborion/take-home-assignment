@@ -50,10 +50,10 @@ Keep the application small. A basic page and a single end-to-end workflow are su
 
 Deploy the application to a Linux operating system hosted on **AWS EC2**.
 
-- Choose an appropriate instance type (e.g., t2.micro under the free tier) and configure the security group for web traffic (HTTP/HTTPS).
-- Install and configure your preferred web server software, such as **Apache**, **NGINX**, or any other of your choice.
-- Make the service available over **port 80**.
-- Run the application and web server through systemd or an equivalent service manager so they survive logout and can be restarted consistently.
+ - Choose an appropriate instance type (e.g., t2.micro under the free tier) and configure the security group for web traffic (HTTP/HTTPS).
+ - Install and configure your preferred web server software, such as **Apache**, **NGINX**, or any other of your choice.
+ - Make the service available over **port 80**.
+ - Run the application and web server through systemd or an equivalent service manager so they survive logout and can be restarted consistently.
 
 
 
@@ -64,10 +64,10 @@ Write a Bash or Python script that checks connectivity to the configured host on
 
 1. **Core Functionality**:
 
- - write timestamped messages to a log file;
- - log one warning when the port changes from accessible to inaccessible;
- - log one recovery message when the port becomes accessible again;
- - run persistently through systemd or an equivalent service manager.
+  - write timestamped messages to a log file;
+  - log one warning when the port changes from accessible to inaccessible;
+  - log one recovery message when the port becomes accessible again;
+  - run persistently through systemd or an equivalent service manager.
 
 ### 4. Build a process monitor
 
