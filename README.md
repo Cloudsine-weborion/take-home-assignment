@@ -9,8 +9,6 @@ This exercise evaluates practical Linux administration, deployment, service moni
 
 ## Objective
 
----
-
 Build a minimal malware-scanning web application, deploy it to a Linux host on **AWS EC2**, and operate it behind Nginx, Apache or any other of your choice on port 80.
 
 The application should:
@@ -25,23 +23,15 @@ The application should:
 
 ## Features
 
----
-
 Keep the application small. A basic page and a single end-to-end workflow are sufficient. Required application behavior:
 
 1. **File Upload and Scanning**: Build a web interface that allows users to upload files and scan them using the ++[VirusTotal API](https://docs.virustotal.com/reference/overview)++.
 2. **Result Display**: Present the scan results dynamically and clearly on the webpage.
 3. **GenAI Integration**: Integrate with a LLM to explain the results to a lay end user
 4. **Customizable Design**: Add enhancements or optimizations to showcase your skills.
-5. **Monitors:** Monitor and log the health of the server and
-
-
+5. **Monitors:** Monitor and log the health of the server and output necessary logs
 
 ## Assignment Steps
-
----
-
-
 
 ### Step 1. Build the web application
 
@@ -55,10 +45,8 @@ Keep the application small. A basic page and a single end-to-end workflow are su
   - You may use any language or framework you are comfortable with
 
 
-
 ### Step 2. Deploy the web service
 
----
 
 Deploy the application to a Linux operating system hosted on **AWS EC2**.
 
@@ -71,7 +59,6 @@ Deploy the application to a Linux operating system hosted on **AWS EC2**.
 
 ### Step 3. Build a network monitor
 
----
 
 Write a Bash or Python script that checks connectivity to the configured host on port 80 every **5 seconds**.
 
@@ -84,8 +71,6 @@ Write a Bash or Python script that checks connectivity to the configured host on
 
 ### 4. Build a process monitor
 
----
-
 Write a separate Bash or Python script that checks whether the application is running every **5 seconds**.
 
 1. **Core Functionality**:
@@ -96,8 +81,6 @@ Write a separate Bash or Python script that checks whether the application is ru
 - run persistently through systemd or an equivalent service manager.
 
 ## Submission Requirements
-
----
 
 1. **Documentation**:
   - Provide a detailed README explaining your setup process, challenges, and solutions.
@@ -110,8 +93,6 @@ Write a separate Bash or Python script that checks whether the application is ru
 
 ## **Bonus Section: Optional Enhancements**
 
----
-
 Go the extra mile by implementing one or both of the following:
 
 #### 1. Infrastructure Monitoring and Best Practices
@@ -120,17 +101,11 @@ Go the extra mile by implementing one or both of the following:
 - Containerization.
 - Log rotation and application-level health check, metrics, or an availability objective.
 
-
-
 ### **2. CI/CD Pipeline**
 
 - Automate testing and deployments using a CI/CD pipeline (e.g., GitHub Actions or AWS CodePipeline).
 
-
-
 ## Evaluation Criteria
-
----
 
 You are free to use AI code assistants such as Cursor and Claude Code. However, you are expected to be able to understand and explain most of the code.
 
@@ -141,11 +116,7 @@ Your submission will be assessed on:
 3. **Creativity**: Did you add enhancements or optimizations to improve the application?
 4. **Presentation**: Is the solution polished?
 
-
-
 ## Disclaimer: Safety and Security
-
----
 
 Some sample JavaScript files are malicious. Treat every file as untrusted:
 
@@ -153,8 +124,6 @@ Some sample JavaScript files are malicious. Treat every file as untrusted:
 - Store them only as long as required and remove afterwards.
 
 ## Resources
-
----
 
 - [AWS EC2 getting started guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html)
 - [VirusTotal API documentation](https://docs.virustotal.com/reference/overview)
@@ -164,8 +133,6 @@ Some sample JavaScript files are malicious. Treat every file as untrusted:
 - [systemd service documentation](https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html)
 
 ## **Getting Started**
-
----
 
 1. Clone this repository and review the provided sample files.
 2. Set up your AWS EC2 instance and deploy the web application.
