@@ -61,16 +61,14 @@ Write a Bash or Python script that checks connectivity to the configured host on
   - write timestamped messages to a log file;
   - log one warning when the port changes from accessible to inaccessible;
   - log one recovery message when the port becomes accessible again;
-  - run persistently through systemd or an equivalent service manager.
 
 ### Step 4. Build a process monitor
 
-Write a separate Bash or Python script that checks whether the application is running every **5 seconds**.
+Write a separate Bash or Python script that checks whether the malware scanner application is running every **5 seconds**.
 
   - write timestamped messages to a separate log file;
   - log one warning when the process changes from running to stopped;
   - log one recovery message when the process becomes available again;
-  - run persistently through systemd or an equivalent service manager.
 
 ## Submission Requirements
 
